@@ -39,7 +39,7 @@ const UseEffectExample = () => {
   return (
     <>
       <div>{counter}</div>
-      <button onClick={() => setCounter(++counter)}>increment</button>
+      <button onClick={() => setCounter(counter + 1)}>increment</button>
     </>
   );
 };
